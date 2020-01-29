@@ -4,10 +4,10 @@ if (getenv("DKTL_DOCKER") == "1") {
     'default' => array(
       'default' => array(
         'database' => 'drupal',
-        'username' => 'drupal',
-        'password' => '123',
-        'host' => 'db',
-        'port' => '',
+        'username' => 'jeff@usdadrupal',
+        'password' => 'password!1234',
+        'host' => 'usdadrupal.mysql.database.azure.com',
+        'port' => '3306',
         'driver' => 'mysql',
         'prefix' => '',
       ),
