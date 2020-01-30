@@ -14,9 +14,9 @@
 /**
  * Root directory of Drupal installation.
  */
-define('DRUPAL_ROOT', getcwd());
-echo getcwd() . "\n";
+define('DRUPAL_ROOT', '/home/site/wwwroot/docroot');
 
-require_once  '/home/site/wwwroot/docroot/includes/bootstrap.inc';
+
+require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
 drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
 menu_execute_active_handler();
